@@ -14,17 +14,17 @@ public class CalcThread extends Thread
 	
 	private class MyHandler extends Handler
 	{
-//		private float calcGVal(float value)
-//		{
-//			Log.d(TAG, String.format("Value of value: %+f", value));
-//			
-//			float GRAVITY = SensorManager.GRAVITY_EARTH;
-//			float curGVal = value;
-//			curGVal /= GRAVITY;
-//			Log.d(TAG, String.format("Value of curGVal: %+f", curGVal));
-//			
-//			return curGVal;
-//		}
+		private float calcGVal(float value)
+		{
+			Log.d(TAG, String.format("Value of value: %+f", value));
+
+			float GRAVITY = SensorManager.GRAVITY_EARTH;
+			float curGVal = value;
+			curGVal /= GRAVITY;
+			Log.d(TAG, String.format("Value of curGVal: %+f", curGVal));
+
+			return curGVal;
+		}
 		
 		public void handleMessage(Message msg)
 		{	
