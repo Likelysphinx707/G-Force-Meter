@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">G_Force_Meter</string>
+    <string name="button_text">Calibrate</string>
+    <string name="txt_default"></string>
+</resources>
